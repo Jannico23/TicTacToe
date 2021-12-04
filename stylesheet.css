@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+section {
+    text-align: center;
+}
+
+.ttt-title {
+    font-size: 100px;
+    color: orange;
+    margin: 10px auto;
+}
+
+.row {
+    content: "";
+    display: grid;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+  }
+
+
+.ttt-container {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 462px;
+    margin: 10px auto;
+    background-color: black;
+    color: green;
+}
+
+.cell {
+    width: 150px;
+    height: 150px;
+    border: 2px solid orange;
+    cursor: pointer;
+    line-height: 150px;
+    font-size: 90px;
+}
+
+.ttt-status {
+    font-size: 50px;
+    color: green;
+    margin: 20px auto;
+}
+
+.restart-button {
+    background-color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: green;
+    border: 2px solid orange;
+}
+p{
+    color: green;
+    text-align: right;
+}
